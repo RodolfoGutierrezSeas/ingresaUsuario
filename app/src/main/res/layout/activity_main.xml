@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/nombreCmplt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pideNmbrCmplt" />
+
+    <EditText
+        android:id="@+id/seleccionFN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="@string/pideFN" />
+
+    <Button
+        android:id="@+id/eligedate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/colorSecundario"
+        android:text="@string/EligeFecha" />
+
+    <EditText
+        android:id="@+id/tlfn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pideTelefono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/crr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/pideEmail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/dscrpcn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/pideDescripcion"
+        android:inputType="textMultiLine" />
+
+    <Button
+            android:id="@+id/sgte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sgte"
+            android:backgroundTint="@color/colorSecundario"
+            />
+
+</LinearLayout>

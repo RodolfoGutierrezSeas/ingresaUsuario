@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ingresaUsuario</string>
+    <string name="nAplicacion">Datos de Contacto</string>
+    <string name="nombreCmplt">Nombre completo</string>
+    <string name="pideNmbrCmplt">Ingrese el Nombre completo</string>
+    <string name="pideTelefono">Ingrese el teléfono</string>
+    <string name="pideFN">Seleccione el día de su nacimiento</string>
+    <string name="pideEmail">Ingrese un correo electrónico</string>
+    <string name="pideDescripcion">Descripción</string>
+    <string name="sgte">Siguiente</string>
+    <string name="dtr">Editar</string>
+    <string name="dsplgrNmbrCmplt">Nombre completo</string>
+    <string name="dsplgrFchNcmnto">Fecha de nacimiento</string>
+    <string name="dsplgrtlfn">Número de Teléfono</string>
+    <string name="dsplgrcrr">Correo Electrónico</string>
+    <string name="dsplgrdscrpcn">Descripción</string>
+    <string name="etiquetaNombre">Nombre Completo</string>
+    <string name="etiquetaFecha">Fecha de nacimiento</string>
+    <string name="etiquetatlfn">Teléfono</string>
+    <string name="etiquetacrr">Correo</string>
+    <string name="etiquetadscrpcn">Descripción</string>
+    <string name="EligeFecha">Eliga la fecha</string>
+    <string name="Slvrdt">Salvar Datos</string>
+</resources>

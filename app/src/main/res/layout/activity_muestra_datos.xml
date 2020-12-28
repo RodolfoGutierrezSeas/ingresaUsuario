@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".muestraDatos">
+
+    <TextView
+        android:id="@+id/etqtNmbr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiquetaNombre"
+        android:backgroundTint="@color/Fondo"/>
+
+    <TextView
+        android:id="@+id/dspNmbr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/dsplgrNmbrCmplt" />
+
+    <TextView
+        android:id="@+id/etqtFchdNcmnt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiquetaFecha"
+        android:backgroundTint="@color/Fondo"/>
+
+    <TextView
+        android:id="@+id/dspFN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/dsplgrFchNcmnto" />
+
+    <TextView
+        android:id="@+id/etqtte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiquetatlfn"
+        android:backgroundTint="@color/Fondo"/>
+
+    <TextView
+        android:id="@+id/dsptlfn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/dsplgrtlfn" />
+
+    <TextView
+        android:id="@+id/etqtcrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiquetacrr"
+        android:backgroundTint="@color/Fondo"/>
+
+    <TextView
+        android:id="@+id/dspcrr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/dsplgrcrr" />
+
+    <TextView
+        android:id="@+id/etqtdscr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etiquetadscrpcn"
+        android:backgroundTint="@color/Fondo"/>
+
+    <TextView
+        android:id="@+id/dspdscrpcn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/dsplgrdscrpcn" />
+
+    <Button
+        android:id="@+id/edtr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dtr"
+        android:backgroundTint="@color/colorSecundario"
+        />
+
+    <Button
+        android:id="@+id/Slvr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Slvrdt"
+        android:backgroundTint="@color/colorSecundario"
+        />
+
+
+
+</LinearLayout>
